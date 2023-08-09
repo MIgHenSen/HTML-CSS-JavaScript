@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: skyblue;}
+h2{
+    padding: 10px;}
+select{
+    padding: 10px;
+    font-size: 15px;
+    background-color: bisque;}
+button{
+    margin-top: 5px;
+    padding: 5px;
+    background-color: brown;
+    color: white;
+    margin-bottom: 10px;}
