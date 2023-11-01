@@ -1,0 +1,49 @@
+/* Acerisco define elementos da págin em si */
+*{
+    /* Define o espaçamento externo */
+    margin: 0;
+    /* Define o espaçamento interno */
+    padding: 0;
+    /* Para garantir o formato da tela do computador, que só poderá ser alterado pelo programador */
+    box-sizing: border-box;}
+
+body{
+    /* Indica a forma que serão dispostos os elementos */
+    display: flex;
+    /* Define como serão dispostos os elementos, nesse caso, um abaixo do outro, em coluna */
+    flex-direction: column;
+    /* Alinha todos os elementos no centro, verticalmente */
+    align-items: center;
+    /* Alinha todos os elementos no centro, horizontalmente*/
+    justify-content: center;
+    /* Define a altura do elemento */
+    height: 100vh;
+    /* Define cor de fundo */
+    background-color: skyblue;
+    /* Define cor do texto */
+    color: purple;}
+
+/* Classes são referenciadas em css pelo ponto */
+.inputN{
+    /* Altura dos elementos */
+    height: 30px;
+    /* Conprimento dos elementos */
+    width: 200px; 
+    /* Define o espaçamento interno */ 
+    padding: 10px; }
+
+/* Classes são referenciadas em css pelo ponto*/
+.Operacoes{
+    /* Arredondamento da borda */
+    border-radius: 10px;
+    /* Espaçamento interno */
+    padding: 5px;
+    /* Cor de fundo */
+    background-color: purple;
+    /* Cor das letras */
+    color: white;}
+
+/* Classes são referenciadas em css pelo ponto */
+.t1{
+    /* Tamanho das letras */
+    font-size: 20px; }
